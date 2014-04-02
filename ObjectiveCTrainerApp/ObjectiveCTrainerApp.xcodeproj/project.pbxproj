@@ -14,13 +14,21 @@
 		E29E8F3B18EC181E00183552 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E29E8F3A18EC181E00183552 /* main.m */; };
 		E29E8F3F18EC181E00183552 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E29E8F3E18EC181E00183552 /* AppDelegate.m */; };
 		E29E8F4218EC181E00183552 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E29E8F4018EC181E00183552 /* Main.storyboard */; };
-		E29E8F4518EC181E00183552 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E29E8F4418EC181E00183552 /* ViewController.m */; };
 		E29E8F4718EC181E00183552 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E29E8F4618EC181E00183552 /* Images.xcassets */; };
 		E29E8F4E18EC181E00183552 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29E8F4D18EC181E00183552 /* XCTest.framework */; };
 		E29E8F4F18EC181E00183552 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29E8F2E18EC181E00183552 /* Foundation.framework */; };
 		E29E8F5018EC181E00183552 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29E8F3218EC181E00183552 /* UIKit.framework */; };
 		E29E8F5818EC181E00183552 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E29E8F5618EC181E00183552 /* InfoPlist.strings */; };
 		E29E8F5A18EC181E00183552 /* ObjectiveCTrainerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E29E8F5918EC181E00183552 /* ObjectiveCTrainerAppTests.m */; };
+		E29E8F6C18EC1B8800183552 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E29E8F6B18EC1B8800183552 /* SWRevealViewController.m */; };
+		E29E8F7218EC1C2F00183552 /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E29E8F7118EC1C2F00183552 /* QuestionViewController.m */; };
+		E29E8F7518EC1C7900183552 /* QuestionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E29E8F7418EC1C7900183552 /* QuestionModel.m */; };
+		E29E8F7818EC1CBD00183552 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E29E8F7718EC1CBD00183552 /* MenuViewController.m */; };
+		E29E8F7B18EC1CD600183552 /* MenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E29E8F7A18EC1CD600183552 /* MenuModel.m */; };
+		E29E8F7E18EC1D0F00183552 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E29E8F7D18EC1D0F00183552 /* AboutViewController.m */; };
+		E29E8F8118EC1D2C00183552 /* RemoveAdsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E29E8F8018EC1D2C00183552 /* RemoveAdsViewController.m */; };
+		E29E8F8418EC1D4F00183552 /* StatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E29E8F8318EC1D4F00183552 /* StatsViewController.m */; };
+		E29E8F8718EC1D6900183552 /* StatsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E29E8F8618EC1D6900183552 /* StatsModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +53,30 @@
 		E29E8F3D18EC181E00183552 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E29E8F3E18EC181E00183552 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E29E8F4118EC181E00183552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E29E8F4318EC181E00183552 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E29E8F4418EC181E00183552 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E29E8F4618EC181E00183552 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E29E8F4C18EC181E00183552 /* ObjectiveCTrainerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveCTrainerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29E8F4D18EC181E00183552 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E29E8F5518EC181E00183552 /* ObjectiveCTrainerAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjectiveCTrainerAppTests-Info.plist"; sourceTree = "<group>"; };
 		E29E8F5718EC181E00183552 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E29E8F5918EC181E00183552 /* ObjectiveCTrainerAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCTrainerAppTests.m; sourceTree = "<group>"; };
+		E29E8F6A18EC1B8800183552 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = Reveal/SWRevealViewController.h; sourceTree = "<group>"; };
+		E29E8F6B18EC1B8800183552 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = Reveal/SWRevealViewController.m; sourceTree = "<group>"; };
+		E29E8F7018EC1C2F00183552 /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuestionViewController.h; path = Question/QuestionViewController.h; sourceTree = "<group>"; };
+		E29E8F7118EC1C2F00183552 /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuestionViewController.m; path = Question/QuestionViewController.m; sourceTree = "<group>"; };
+		E29E8F7318EC1C7900183552 /* QuestionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuestionModel.h; path = Question/QuestionModel.h; sourceTree = "<group>"; };
+		E29E8F7418EC1C7900183552 /* QuestionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuestionModel.m; path = Question/QuestionModel.m; sourceTree = "<group>"; };
+		E29E8F7618EC1CBD00183552 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		E29E8F7718EC1CBD00183552 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		E29E8F7918EC1CD600183552 /* MenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuModel.h; path = Menu/MenuModel.h; sourceTree = "<group>"; };
+		E29E8F7A18EC1CD600183552 /* MenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuModel.m; path = Menu/MenuModel.m; sourceTree = "<group>"; };
+		E29E8F7C18EC1D0F00183552 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = About/AboutViewController.h; sourceTree = "<group>"; };
+		E29E8F7D18EC1D0F00183552 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = About/AboutViewController.m; sourceTree = "<group>"; };
+		E29E8F7F18EC1D2C00183552 /* RemoveAdsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RemoveAdsViewController.h; path = RemoveAds/RemoveAdsViewController.h; sourceTree = "<group>"; };
+		E29E8F8018EC1D2C00183552 /* RemoveAdsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RemoveAdsViewController.m; path = RemoveAds/RemoveAdsViewController.m; sourceTree = "<group>"; };
+		E29E8F8218EC1D4F00183552 /* StatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatsViewController.h; path = Stats/StatsViewController.h; sourceTree = "<group>"; };
+		E29E8F8318EC1D4F00183552 /* StatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatsViewController.m; path = Stats/StatsViewController.m; sourceTree = "<group>"; };
+		E29E8F8518EC1D6900183552 /* StatsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatsModel.h; path = Stats/StatsModel.h; sourceTree = "<group>"; };
+		E29E8F8618EC1D6900183552 /* StatsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatsModel.m; path = Stats/StatsModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +139,13 @@
 				E29E8F3D18EC181E00183552 /* AppDelegate.h */,
 				E29E8F3E18EC181E00183552 /* AppDelegate.m */,
 				E29E8F4018EC181E00183552 /* Main.storyboard */,
-				E29E8F4318EC181E00183552 /* ViewController.h */,
-				E29E8F4418EC181E00183552 /* ViewController.m */,
+				E29E8F6318EC19E300183552 /* Reveal */,
+				E29E8F6918EC1A3A00183552 /* Helpers */,
+				E29E8F6818EC1A2800183552 /* RemoveAds */,
+				E29E8F6718EC1A1900183552 /* About */,
+				E29E8F6618EC19FD00183552 /* Menu */,
+				E29E8F6518EC19F600183552 /* Stats */,
+				E29E8F6418EC19EA00183552 /* Question */,
 				E29E8F4618EC181E00183552 /* Images.xcassets */,
 				E29E8F3518EC181E00183552 /* Supporting Files */,
 			);
@@ -150,6 +179,73 @@
 				E29E8F5618EC181E00183552 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E29E8F6318EC19E300183552 /* Reveal */ = {
+			isa = PBXGroup;
+			children = (
+				E29E8F6A18EC1B8800183552 /* SWRevealViewController.h */,
+				E29E8F6B18EC1B8800183552 /* SWRevealViewController.m */,
+			);
+			name = Reveal;
+			sourceTree = "<group>";
+		};
+		E29E8F6418EC19EA00183552 /* Question */ = {
+			isa = PBXGroup;
+			children = (
+				E29E8F7318EC1C7900183552 /* QuestionModel.h */,
+				E29E8F7418EC1C7900183552 /* QuestionModel.m */,
+				E29E8F7018EC1C2F00183552 /* QuestionViewController.h */,
+				E29E8F7118EC1C2F00183552 /* QuestionViewController.m */,
+			);
+			name = Question;
+			sourceTree = "<group>";
+		};
+		E29E8F6518EC19F600183552 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				E29E8F8518EC1D6900183552 /* StatsModel.h */,
+				E29E8F8618EC1D6900183552 /* StatsModel.m */,
+				E29E8F8218EC1D4F00183552 /* StatsViewController.h */,
+				E29E8F8318EC1D4F00183552 /* StatsViewController.m */,
+			);
+			name = Stats;
+			sourceTree = "<group>";
+		};
+		E29E8F6618EC19FD00183552 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				E29E8F7918EC1CD600183552 /* MenuModel.h */,
+				E29E8F7A18EC1CD600183552 /* MenuModel.m */,
+				E29E8F7618EC1CBD00183552 /* MenuViewController.h */,
+				E29E8F7718EC1CBD00183552 /* MenuViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		E29E8F6718EC1A1900183552 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				E29E8F7C18EC1D0F00183552 /* AboutViewController.h */,
+				E29E8F7D18EC1D0F00183552 /* AboutViewController.m */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		E29E8F6818EC1A2800183552 /* RemoveAds */ = {
+			isa = PBXGroup;
+			children = (
+				E29E8F7F18EC1D2C00183552 /* RemoveAdsViewController.h */,
+				E29E8F8018EC1D2C00183552 /* RemoveAdsViewController.m */,
+			);
+			name = RemoveAds;
+			sourceTree = "<group>";
+		};
+		E29E8F6918EC1A3A00183552 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +345,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E29E8F4518EC181E00183552 /* ViewController.m in Sources */,
+				E29E8F7518EC1C7900183552 /* QuestionModel.m in Sources */,
+				E29E8F7B18EC1CD600183552 /* MenuModel.m in Sources */,
+				E29E8F7E18EC1D0F00183552 /* AboutViewController.m in Sources */,
+				E29E8F8118EC1D2C00183552 /* RemoveAdsViewController.m in Sources */,
+				E29E8F7818EC1CBD00183552 /* MenuViewController.m in Sources */,
 				E29E8F3F18EC181E00183552 /* AppDelegate.m in Sources */,
+				E29E8F8418EC1D4F00183552 /* StatsViewController.m in Sources */,
 				E29E8F3B18EC181E00183552 /* main.m in Sources */,
+				E29E8F8718EC1D6900183552 /* StatsModel.m in Sources */,
+				E29E8F7218EC1C2F00183552 /* QuestionViewController.m in Sources */,
+				E29E8F6C18EC1B8800183552 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
