@@ -1,15 +1,13 @@
 //
-//  MenuModel.h
+//  MenuItem.m
 //  ObjectiveCTrainerApp
 //
 //  Created by Kylan Koblitz on 4/2/14.
 //  Copyright (c) 2014 Q New Media Inc. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "MenuItem.h"
 
-@interface MenuModel : NSObject
-
-- (NSArray *)getMenuItems;
+@implementation MenuItem
 
 @end
